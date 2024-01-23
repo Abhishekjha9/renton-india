@@ -2,7 +2,7 @@ body{
     background-color: #141414;
     margin: 0;
     color: white;
-     text-align: center;
+    text-align: center;
 }
 
 #options{
@@ -185,6 +185,10 @@ li{
     font-weight: 900;
     text-align: center;
     margin: 20px;
+    transition: transform 0.3s ease-in-out;
+}
+#card:hover{
+    transform: scale(1.03);
 }
 #card img{
     width: 230px;
@@ -210,6 +214,10 @@ li{
     border-radius: 25px;
     color: white;
     background-color: #141414;
+    transition: transform 0.3s ease-in-out;
+}
+#add-to-cart:hover{
+    transform: scale(1.03);
 }
 @media screen and (max-width: 600px){
     #options{
