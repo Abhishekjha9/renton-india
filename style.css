@@ -219,6 +219,37 @@ li{
 #add-to-cart:hover{
     transform: scale(1.03);
 }
+#cart-box{
+    width: 40%;
+    height: 70px;
+    background-color: rgb(235, 235, 235);
+    border-top: 2px solid rgb(25, 25, 25);
+    margin: 50px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 12px;
+    display: grid;
+    place-items: center;
+}
+#cart-container h2{
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 70px;
+    float: left;
+}
+#return-btn{
+    display: grid;
+    place-items: center;
+    font-family: 'Noto Sans', sans-serif;
+    margin: 10px;
+    height:50px;
+    width: 30%;
+    border-radius: 25px;
+    color: white;
+    background-color: #141414;
+    transition: transform 0.3s ease-in-out;
+}
+#return-btn a{
+    text-decoration: none;
+}
 @media screen and (max-width: 600px){
     #options{
         display: none;
@@ -232,3 +263,4 @@ li{
         font-size: 70px;
     }
 }
+
